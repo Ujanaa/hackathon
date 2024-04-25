@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AoWlRwbNMl_YCeeKI0IZ_MY6FS1tiDCEgLe_ajZ0MfzlKJDC5b2kGTXHsXRQYZ4e' async defer></script>
+    
+    <title></title>
+    <link rel="stylesheet" href="firemaps.css">
+    
+     <script src = "firemaps.js" async defer></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div id="myMap" onload ="getmap()"></div>
+    <div id = "box">
+        <h1>Live Fire detector</h1>
+        <h3>Adjust the map to fit the area you want to scan</h3>
+        <button onclick="getscanned()">Scan</button>
+
+        <h2>Result : <span id="result"></span></h2>
+    </div>
+</body>
+</html>

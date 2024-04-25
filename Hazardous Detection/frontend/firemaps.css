@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(43, 43, 43);
+}
+
+#myMap {
+    position: fixed;
+    left: 30vw;
+    top: 3vh;
+    width: 70vw;
+    height: 90vh;
+}
+#box{
+    height: 70vh;
+    position : fixed;
+    top : 15vh;
+    left: 5vh;
+    width: 28vw;
+    color: wheat;
+}
+
+button{
+    background-color: rgb(220, 117, 20);
+    color: wheat;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
